@@ -2,9 +2,6 @@ import java.util.Scanner;
 
 public class Player {
 
-	/*
-	 * 
-	 */
 	private String username = null;
 	private Board userBoard;
 	private int userScore = 0;

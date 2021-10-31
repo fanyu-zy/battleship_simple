@@ -24,9 +24,6 @@ public class LargeBattleship extends Battleship {
 				shipdir2 = shipnum.nextBoolean();// F for left/up, T for right/down
 				if (shipdir == false) {
 					if (shipdir2 == false) {
-						// Here can write functions that use size for function loops
-						// But it's a little difficult for me at the moment
-						// The simplest judgment was used
 						if (isShip(x, y - 1, board) == false && isShip(x, y - 2, board) == false) {
 							shiplocation[x][y] = shipNo;
 							shiplocation[x][y - 1] = shipNo;

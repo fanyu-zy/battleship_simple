@@ -13,7 +13,6 @@ public class MediumBattleship extends Battleship {
 		int columnnum = 0;
 		boolean shipdir = false;
 		boolean shipdir2 = false;
-		// Enter the loop until the ship is successfully built
 		while (!flag) {
 			linenum = shipnum.nextInt(10);
 			columnnum = shipnum.nextInt(10);

@@ -89,17 +89,17 @@ public class Board {
 
 	public String toString() {
 		String output = String.format("%20s", "The Board\n");
-		for(int i=0;i<10;i++) {
-			for(int j=0;j<10;j++) {
-				if(board[i][j]==9) {
+		for (int i = 0; i < 10; i++) {
+			for (int j = 0; j < 10; j++) {
+				if (board[i][j] == 9) {
 					output += String.format("%3s", 'o');
-				}else if(board[i][j]==8) {
-					output += String.format("%3s", '��');
-				}else {
+				} else if (board[i][j] == 8) {
+					output += String.format("%3s", '×');
+				} else {
 					output += String.format("%3s", '-');
 				}
 			}
-			if(i!=9)
+			if (i != 9)
 				output += '\n';
 		}
 		return output;

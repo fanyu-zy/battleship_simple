@@ -27,7 +27,6 @@ public class Main {
 		while (!onewin) {
 			// First player to play the game
 			play1.takeTurn();
-			// Show player scores
 			System.out.println(play1);
 			if (play1.Playerwin == true) {
 				onewin = true;
